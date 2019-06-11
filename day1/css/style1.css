@@ -1,0 +1,49 @@
+
+#first {
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+#colwa {
+    background-color: rgb(0,0,0,0.7);
+}
+
+body{
+	overflow-x: hidden;
+	font-family: 'Karla', sans-serif;
+	color: #505962;	
+	scroll-behavior: smooth;
+
+}
+
+.offset:before{
+	display:block;
+	content: "";
+	height: 4rem;
+	margin-top: -4rem;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+/*--- Navigation--*/
+.navbar{
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 1rem;
+	letter-spacing: .1rem;
+	background: rgba(0,0,0,0)!important
+}
+
+
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: white;
+	padding-top: .5rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+	color:coral;
+}
+
